@@ -7,4 +7,8 @@ public class Vip extends Ingresso{
         double valorVip = Ingresso.valorIngresso + valorAdicional;
         System.out.println(valorVip);
     }
+    public double getIngressoVip(){
+        double valorVip = Ingresso.valorIngresso + valorAdicional;
+        return valorVip;
+    }
 }
