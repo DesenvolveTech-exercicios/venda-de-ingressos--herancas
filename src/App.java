@@ -27,9 +27,11 @@ public class App {
                             "O valor do seu ingresso vip no camarote superior é: " +
                             new CamaroteSuperior().IngressoVip());
                 }else{
+                    CamaroteInferior inferior = new CamaroteInferior();
                     JOptionPane.showMessageDialog(null,
                             "O valor do seu ingresso vip no camarote inferior é: " +
-                                    new CamaroteInferior().getIngressoVip());
+                                    inferior.getIngressoVip() + "\nNumero da poltrona: " +
+                            inferior.getPoltrona());
                 }
                 break;
             default:
