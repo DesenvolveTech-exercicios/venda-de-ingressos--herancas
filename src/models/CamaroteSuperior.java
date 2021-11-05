@@ -1,9 +1,10 @@
 package models;
 
-public class CamaroteSuperior {
+public class CamaroteSuperior extends Vip{
     private final double valorAdicional = 21.30;
-    public void IngressoVip(){
+
+    public String IngressoVip(){
         double valor = valorAdicional + new Vip().getIngressoVip();
-        System.out.println(valor);
+        return Double.toString(valor);
     }
 }

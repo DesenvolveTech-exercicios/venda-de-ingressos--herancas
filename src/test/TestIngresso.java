@@ -13,11 +13,11 @@ public class TestIngresso {
 
     public static void deveImprimirOValorDoIngresso(){
         Ingresso ingresso = new Ingresso();
-        ingresso.imprimeValor();
+        System.out.println(ingresso.imprimeValor());
     }
 
     public static void deveImprimirOValorDoIngressoVip(){
         Vip vip = new Vip();
-        vip.IngressoVip();
+        System.out.println(vip.getIngressoVip());
     }
 }

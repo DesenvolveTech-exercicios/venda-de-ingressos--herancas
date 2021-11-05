@@ -2,7 +2,7 @@ package models;
 
 import java.util.Random;
 
-public class CamaroteInferior {
+public class CamaroteInferior extends Vip {
     private int Poltrona = new Random().nextInt(200);
 
     public int getPoltrona() {

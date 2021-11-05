@@ -18,6 +18,6 @@ public class TesteCamarote {
 
     public static void deveImprimirOValorDoIngressoDOCamaroteSuperior(){
         CamaroteSuperior camaroteSuperior = new CamaroteSuperior();
-        camaroteSuperior.IngressoVip();
+        System.out.println(camaroteSuperior.IngressoVip());
     }
 }
